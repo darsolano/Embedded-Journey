@@ -1,5 +1,6 @@
-# Embeddeed-Journey
-This repository respond to the youtube channel dedicated to teach and guide Embedded engineers on technology knowledge, embedded systems, boards, modules, etc. On how to use them, along with the software/firmware technology available.
-
-# es_Wifi folder
-This folder contains the drivers for inventek's wifi module ISM43363. It has an internal TCP stack that can be accesed thru AT commands.
+# Embedded-Journey
+Code base for the Embedded-Journey YouTube channel. We bridge the gap between embedded hardware and firmware technology through hands-on tutorials.
+# Featured Modules
+es_Wifi: Production-ready drivers for the Inventek ISM43362/3 Wi-Fi series.
+Utilizes the module's internal TCP stack via AT commands.
+Includes wrappers for simplified socket management and TLS security.
