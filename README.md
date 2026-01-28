@@ -1,8 +1,3 @@
-diff --git a/README.md b/README.md
-index c1e81712d6be938e49ca3089f697eafe3a9c4f81..a2d0d88c9e170df9bf13ecf31a39dc000d754f41 100644
---- a/README.md
-+++ b/README.md
-@@ -1,10 +1,33 @@
 -# Embedded-Journey
 -Code base for the Embedded-Journey YouTube channel. We bridge the gap between embedded hardware and firmware technology through hands-on tutorials.
 -
