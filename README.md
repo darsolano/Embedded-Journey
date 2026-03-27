@@ -31,3 +31,7 @@ Code samples and reusable modules for the **Embedded Journey** projects. The rep
 ## Getting help
 
 If you are following along with the Embedded Journey YouTube channel, reference the video or series that matches the module you are integrating for platform-specific guidance and configuration tips.
+
+## Business collateral
+
+- Investor-ready deck outline and business model for industrial field measurement and large data center targets: `docs/presentacion_inversionistas_iot_industrial.md`.
