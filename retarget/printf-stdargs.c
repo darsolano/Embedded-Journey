@@ -38,9 +38,10 @@ extern int __io_getchar(void) __attribute__((weak));
 /* Put a string without format */
 int	puts (const char *p){
 	int count = 0;
-	while(*p++){
+	while(*p){
 		(void)_write(0, (char*)p, 1);
 		count++;
+		p++;
 	}
 	return count;
 }
