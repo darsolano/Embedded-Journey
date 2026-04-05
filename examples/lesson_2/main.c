@@ -110,8 +110,8 @@ int main(void)
   MX_USART3_UART_Init();
   MX_USB_OTG_FS_PCD_Init();
   /* USER CODE BEGIN 2 */
-  char* ssid = "SolPouNet_IOT";
-  char* pass = "D0sN0c14126600101542686";
+  char* ssid = "your_ssid";
+  char* pass = "your_password";
   uint8_t buf[96] = {0};
   printf("Initializing the system wifi connectivity...\r\n");
   int rc = WIFI_Init();
