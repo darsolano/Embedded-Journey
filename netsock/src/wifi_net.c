@@ -67,11 +67,8 @@ int net_if_reinit(void * if_ctxt);
 /* Functions Definition ------------------------------------------------------*/
 int net_if_init(void * if_ctxt)
 {
-  const char *ssid = "SolPouNet_IOT";
-  const char  *psk = "D0sN0c14126600101542686";
-
-//  const char *ssid = "SolpouNet";
-//  const char  *psk = "8093720033";
+  const char *ssid = "your ssid";
+  const char  *psk = "your password";
 
   WIFI_Ecn_t security_mode = WIFI_ECN_WPA2_PSK;
   char moduleinfo[WIFI_PRODUCT_INFO_SIZE];
